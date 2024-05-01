@@ -1,6 +1,6 @@
 # Konnect Terraform Setup
 
-This project automates the setup of a Konnect Control plane and a local Docker data plane using Terraform. It allows users to quickly deploy and manage their infrastructure with minimal manual intervention.
+This project automates the setup of a Konnect Control plane and a docker data plane using Terraform.
 
 ## Prerequisites
 
