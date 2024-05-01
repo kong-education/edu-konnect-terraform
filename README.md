@@ -34,7 +34,7 @@ To deploy your infrastructure, follow these steps:
 
 #### Deployment
 
-Run the following script to start the deployment:
+Run the following script to destroy the deployment:
 ```bash
 ./run.sh
 ```

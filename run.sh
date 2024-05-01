@@ -39,5 +39,6 @@ echo "Initializing the data plane"
 terraform init
 echo "Applying the data plane"
 terraform apply -auto-approve
+cd ..
 
 
