@@ -21,5 +21,5 @@ variable "KONNECT_API" {
 }
 provider "konnect" {
   personal_access_token = var.KONNECT_PAT
-  server_url            = "https://us.api.konghq.com"
+  server_url            = var.KONNECT_API
 }
