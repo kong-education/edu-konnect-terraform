@@ -26,10 +26,6 @@ export TF_VAR_KONG_CLUSTER_TELEMETRY_ENDPOINT=$(jq -r '.resources[] | select(.ty
 export TF_VAR_KONG_CLUSTER_CERT=$(cat certs/cluster.crt)
 export TF_VAR_KONG_CLUSTER_CERT_KEY=$(cat certs/cluster.key)
 
-echo $TF_VAR_KONG_CLUSTER_CONTROL_PLANE
-echo $TF_VAR_KONG_CLUSTER_TELEMETRY_ENDPOINT
-echo $TF_VAR_KONG_CLUSTER_CERT
-echo $TF_VAR_KONG_CLUSTER_CERT_KEY
 #================================================#
 #            Create Data Plane                   #
 #================================================#
