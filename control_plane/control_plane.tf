@@ -1,6 +1,3 @@
-# Don't forget to create auth.tf to configure the provider
-# (see examples/scenarios/_auth.tf for an example)
-
 # Create a new Control Plane
 resource "konnect_gateway_control_plane" "tfcp" {
   name         = "Terraform Control Plane"
